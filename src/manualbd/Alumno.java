@@ -10,6 +10,9 @@ public class Alumno {
     private String dni, nombre, apellidos;
     private int edad;
 
+    public Alumno() {
+    }
+
     public Alumno(String dni, String nombre, String apellidos, int edad) {
         this.dni = dni;
         this.nombre = nombre;
@@ -47,15 +50,5 @@ public class Alumno {
 
     public void setEdad(int edad) {
         this.edad = edad;
-    }
-
-    /**
-     * Para que el alumno se guarde automáticamente.
-     */
-    public void save(){
-        Conector con = new Conector();
-        con.connect();
-        con.saveAlumno(this);
-        con.close();
     }
 }

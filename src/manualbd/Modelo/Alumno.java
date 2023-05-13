@@ -1,4 +1,4 @@
-package manualbd;
+package manualbd.Modelo;
 
 /**
  * Clase que define a un alumno

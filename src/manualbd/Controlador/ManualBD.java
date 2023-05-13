@@ -1,4 +1,8 @@
-package manualbd;
+package manualbd.Controlador;
+
+import manualbd.Modelo.Conector;
+import manualbd.Modelo.Alumno;
+import manualbd.Vista.Ventana;
 
 /**
  * Clase de ejecución

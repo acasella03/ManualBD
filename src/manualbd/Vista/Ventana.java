@@ -1,6 +1,4 @@
-package manualbd;
-
-import javax.swing.JTable;
+package manualbd.Vista;
 
 /**
  *

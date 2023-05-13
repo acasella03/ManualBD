@@ -1,10 +1,13 @@
-package manualbd;
+package manualbd.Controlador;
 
+import manualbd.Modelo.Conector;
+import manualbd.Modelo.Alumno;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import manualbd.Vista.Ventana;
 
 /**
  * Se encarga de conectar la Clase Conector, donde se encuentra la conexión a la

@@ -1,4 +1,4 @@
-package manualbd;
+package manualbd.Modelo;
 
 import java.sql.*;
 import java.util.ArrayList;

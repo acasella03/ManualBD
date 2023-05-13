@@ -12,3 +12,8 @@ nbdist/
 .nb-gradle/
 
 # End of https://www.toptal.com/developers/gitignore/api/netbeans
+
+### IntelliJ ###
+.idea
+*.iml
+out

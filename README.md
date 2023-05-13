@@ -46,6 +46,13 @@ Es una herramienta de software libre, que permite almacenar información en disp
 ![Tabla](https://github.com/acasella03/ManualBD/blob/master/imagenes/13.png)
 
 ### MVC (Modelo-Vista-Controlador)
+Es un ***patrón de diseño*** de software comúnmente utilizado para implementar interfaces de usuario, datos y lógica de control.
+
+Las **tres partes** del patrón se pueden describir de la siguiente manera:
+1. **Modelo:** Maneja datos y lógica.
+2. **Vista:** Se encarga del diseño y presentación.
+3. **Controlador:** Enruta comando a los modelos y vistas.
+
 ![Diagrama](https://github.com/acasella03/ManualBD/blob/master/imagenes/DiagramaFuncionamientoMVC.jpg)
 
 ### Clase [Alumno](https://github.com/acasella03/ManualBD/blob/master/src/manualbd/Modelo/Alumno.java).java

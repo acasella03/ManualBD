@@ -170,25 +170,10 @@ public class Conector {
                 alumno.setEdad(result.getInt("edad"));
 
                 listaAlumnos.add(alumno);
-
-                /*System.out.print("DNI: ");
-                System.out.println(result.getString("dni"));
-
-                System.out.print("Nombre: ");
-                System.out.println(result.getString("nombre"));
-
-                System.out.print("Apellidos: ");
-                System.out.println(result.getString("apellidos"));
-
-                System.out.print("Edad: ");
-                System.out.println(result.getInt("edad"));
-
-                System.out.println("=======================");*/
-
             }
         } catch (SQLException ex) {
             System.err.println(ex.getMessage());
-        }finally{
+        } finally {
             close();
         }
         return listaAlumnos;
